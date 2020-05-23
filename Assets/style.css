@@ -44,6 +44,10 @@ a {
   font-family: 'Lucida Grande','Lucida Sans','Arial','sans-serif';
 }
 
+#meAndJB{
+  width: 50%;
+}
+
 
 .navbar-nav .nav-item:not(:last-child) {
   border-right: 1px solid silver;
@@ -67,7 +71,7 @@ a {
 }
 
 .card-img-top{
-  width: 50%;
+  width: 80%;
   text-align: center;
   border: gold;
   border-style: double;
@@ -78,7 +82,7 @@ a {
 }
 
 .card{
-  min-height: 400px;
+  min-height: 580px;
   margin: 20px;
   padding:10px;
 }
