@@ -5,42 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Sword-Portfolio</title>
+    <link rel="stylesheet" href="./Reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <div class="page-header">
-                <h1>Nick Sword</h1>
-                <p>A brief history of myself</p>
-            </div>
+
+    <!-- Main header with my name for 980px screens -->
+    <!-- Main header with my name for 980px screens -->
+    <header class="container-fluid">
+        <div class="p-3 mb-2 bg-info text-white">
+
+            <!-- Main Navigation bar for 980px screens -->
+            <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-md navbar-light">
+                <!-- Brand/logo -->
+                <span class="navbar-brand mb-0 h1">
+                    <h1>Nick Sword</h1>
+                </span>
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link" data-value="about">About</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <a class="nav-link " data-value="contact" href="./contact.html">Contact</a> </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+    <!-- About me section with Photo -->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" style=max-width:inherit;>
+                    <div class="card-body">
+                        <h3 class="card-title"> About Me</h3>
+                        <img src=".\Photos\Me and JB.jpg" class=card-img-top alt="Me and Jelly Bean">
+                        <div class="row">
+                            <br>
+                            <p>I'm an English born Australian living life in the Pilbara. I've been
+                                working on
+                                the Karratha Gas Plant for the past three years as a Coordinator for an Indigenous
+                                Electrical
+                                company.
+                                Many of my passions are mainly putting myself out of my comfort zone. I love to go out
+                                and
+                                camp
+                                in the elements of the world and go onstage with my voice and a guitar to entertain a
+                                crowd.
+                                I have a firm belief that if you are not taking a step forward in an aspect of your
+                                life,
+                                then
+                                you are living in a rut. We need to keep pushing ourselves to be a better version of who
+                                we
+                                were
+                                yesterday (or the day before if that was a rest day)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
 
+    <ul class="nav nav-list">
+        ...
+        <li class="divider"></li>
+        ...
+    </ul>
 
+    <footer>
+        <h5>A Website brought to you by Nick Sword</h5>
+        <p>
+            &copy; 2020 RecordSword inc.
+        </p>
+    </footer>
 </body>
 
 </html>

@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nick Sword-Portfolio</title>
+    <link rel="stylesheet" href="./Reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
+
 <body>
-    
-</body>
+    <!-- Main header with my name for 980px screens -->
+    <header class="container-fluid">
+
+        <div class="p-3 mb-2 bg-info text-white">
+
+            <!-- Main Navigation bar for 980px screens -->
+            <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-md">
+                <!-- Brand/logo -->
+                <span class="navbar-brand mb-0 h1">
+                    <h1>Nick Sword</h1>
+                </span>
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link" data-value="about">About</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <a class="nav-link " data-value="contact" href="./contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Photos of things I love -->
+    <article class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" src=".\Photos\OnStage.jpg" alt="On Stage">
+                        <div class="card-body">
+                            <h5 class="card-title">On Stage letting loose</h5>
+                            <p class="card-text">Going on stage has always given me the confidence to be myself. No
+                                matter who that is.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" src=".\Photos\Triumph.jpg" alt="Head out on Adventure">
+                        <div class="card-body">
+                            <h5 class="card-title">Head out on Adventure</h5>
+                            <p class="card-text">Living free and going just about anywhere you can imagine.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src=".\Photos\SnowCamp.jpg" alt="Cool hangs">
+                            <div class="card-body">
+                                <h5 class="card-title">Cool hangs way North</h5>
+                                <p class="card-text">Travel really gives an extra perspective to what other cultures
+                                    live in.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src=".\Photos\DJCat.jpg" alt="Mix it Y'all">
+                            <div class="card-body">
+                                <h5 class="card-title">Cat sounds.. </h5>
+                                <p class="card-text">We can mix you a beat to dream to</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+    <footer>
+        <h5>A Website brought to you by Nick Sword</h5>
+        <p>
+            &copy; 2020 RecordSword inc.
+        </p>
+    </footer></body>
+
 </html>

@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nick Sword-Portfolio</title>
+    <link rel="stylesheet" href="./Reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
-    
+
+    <!-- Main header with my name for 980px screens -->
+    <header class="container-fluid">
+
+        <div class="p-3 mb-2 bg-info">
+
+            <!-- Main Navigation bar for 980px screens -->
+            <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-md">
+                <!-- Brand/logo -->
+                <span class="navbar-brand mb-0 h1">
+                    <h1>Nick Sword</h1>
+                </span>
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link" data-value="about">About</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <a class="nav-link " data-value="contact" href="./contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+            <!-- </div> -->
+        </div>
+    </header>
+
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="example@groupmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+<footer>
+    <h5>A Website brought to you by Nick Sword</h5>
+    <p>
+        &copy; 2020 RecordSword inc.
+    </p>
+</footer>
 </body>
+
 </html>
