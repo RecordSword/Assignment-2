@@ -8,6 +8,6 @@ Contact section contains a messaging system.
 
 A link to my portfolio - https://recordsword.github.io/Assignment-2/
 
-<p>Screenshots:  https://recordsword.github.io/Assignment-2/Photos/Snipped_About.JPG</p>
-              <p>https://recordsword.github.io/Assignment-2/Photos/Snipped_Portfolio.JPG</p>
-              <p>https://recordsword.github.io/Assignment-2/Photos/Snipped_Contact.JPG</p>
+<p>Screenshots:  https://recordsword.github.io/Assignment-2/Assets/Photos/Snipped_About.JPG</p>
+              <p>https://recordsword.github.io/Assignment-2/Assets/Photos/Snipped_Portfolio.JPG</p>
+              <p>https://recordsword.github.io/Assignment-2/Assets/Photos/Snipped_Contact.JPG</p>
