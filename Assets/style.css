@@ -38,11 +38,11 @@
   .navbar-nav {
     color: lightsalmon;
   }
-a {
+/* a {
   color: rgb(11, 245, 42);
   font-size: 30px;
   font-family: 'Lucida Grande','Lucida Sans','Arial','sans-serif';
-}
+} */
 
 #meAndJB{
   width: 60%;
@@ -82,14 +82,29 @@ a {
 }
 
 .card{
-  min-height: 580px;
   margin: 20px;
   padding:10px;
-
-  
+  background-color: lightblue;
 }
+
+#contact-card {
+ max-height: 300px
+}
+
+.links {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 15px;
+}
+
+#face-card {
+  background-color: lightblue;
+
+}
+
 .card-body{
   opacity: 100%;
+  background-color: mintcream;
 }
 footer {
   padding: 30px;
@@ -118,6 +133,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20%;
   }
 
 .face::before {
@@ -171,5 +187,5 @@ footer {
 
 .form-group {
   background-color: khaki ;
-  padding-left: 10px;
+  padding: 10px;
 }
